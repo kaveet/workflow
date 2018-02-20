@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<strong>Workflow</strong> is the playbook for the self-made developer.
+<strong>Workflow</strong> is a playbook for the self-made developer.
 </p>
 
 ## Chapters
