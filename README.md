@@ -19,7 +19,7 @@
 
 
 ### 2. Communication
-* [Introduction to Communication](guides/communication.md)
+* [Introduction to Communication](guides/communication.md) (Coming soon!)
 * [Productive Meetings](guides/meetings.md) (Coming soon!)
 * [Making Slack Bearable](guides/slack.md) (Coming soon!)
 
