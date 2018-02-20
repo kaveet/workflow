@@ -38,7 +38,9 @@
 
 ## Why workflow?
 
-Coming soon!
+According to a 2018 HackerRank survey, a staggering 74% of us are at least partially self-taught!<sup>[1](https://research.hackerrank.com/developer-skills/2018/)</sup> We've waded through pages of tutorials, watched hours of YouTube, and learned (a lot) from our failures. We've developed our own practices and found comfort in our individual styles.
+
+**workflow** is a way of giving back for all we've learned. Let's take what we've learned the hard way and pass it on for the next generation of self-made developers.
 
 ## Contributing
 
