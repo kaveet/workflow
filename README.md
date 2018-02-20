@@ -32,9 +32,13 @@
 ### Other
 * [Yoink](guides/yoink.md) (Coming soon!)
 
-## Why?
+## What is workflow?
 
-**workflow** aims to be the playbook for aspiring software engineers. It's inspired by a need for easy-to-understand practices that any developer can quickly pull into their own workflows. Think of **workflow** as a Swiss Army Knife for self-taught software engineers.
+**workflow** aims to be the playbook for aspiring software engineers. It's a curation of recommended practices and resources in everything from front-end design to cloud provisioning—most of which can be hard to find. Each guide outlines helpful tips and tricks that any developer can quickly pull into their own workflows. 
+
+## Why workflow?
+
+Coming soon!
 
 ## Contributing
 
