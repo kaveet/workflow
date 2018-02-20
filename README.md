@@ -3,36 +3,47 @@
 </p>
 
 <p align="center">
-<strong>workflow</strong> is a collection of guides and resources for the self-made developer.
+<strong>workflow</strong> is a the playbook for the self-made developer.
 </p>
 
-## Workflows
+## Chapters
 
-### 1. Design
+### 1. Planning
+* [What is Agile?](guides/agile.md) (Coming soon!)
+* [Workable Agile in Trello](guides/trello.md) (Coming soon!)
+
+
+### 2. Design
+
+* [Creating mockups in Sketch](guides/sketch.md) (Coming soon!)
 * [Creating mockups in Adobe Illustrator](guides/illustrator.md) (Coming soon!)
 * [Creating mockups in Adobe Photoshop](guides/photoshop.md) (Coming soon!)
-* [Sketch fundamentals](guides/sketch.md) (Coming soon!)
 
-### 2. Development
+
+### 3. Tooling
+
 * [Setting up a development environment on Mac OS]() (Coming soon!)
 * [Setting up a development environment on Windows]() (Help needed!)
 * [Making Bash work for you](guides/bash.md) (Coming soon!)
 * [Best practices: Git & GitHub](guides/git.md) (In progress!)
+* [Git branching models, compared](guides/branching.md) (Coming soon!)
 * [Getting to know your editor: Sublime Text](guides/sublime.md) (Coming soon!)
 * [Getting to know your editor: Vim](guides/vim.md) (Coming soon!)
 
-### 3. Cloud
+### 4. Web Development
+* [Writing sensible CSS](guides/css.md)
+
+
+### 5. Cloud
 * [Amazon Web Services](guides/aws.md) (Coming soon!)
 * [Digital Ocean](guides/digital-ocean.md) (Coming soon!)
 
-### 4. DevOps
+### 6. DevOps
 * [Creating a Codeship deployment pipeline](guides/codeship.md) (Coming soon!)
 
-### 5. Project Management
-* [What is Agile?](guides/agile.md) (Coming soon!)
-* [Workable Agile in Trello](guides/trello.md) (Coming soon!)
 
 ### Other
+* [Markdown](guides/markdown.md) (Coming soon!)
 * [Yoink](guides/yoink.md) (Coming soon!)
 
 ## What is workflow?
