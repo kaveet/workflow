@@ -6,11 +6,16 @@
 <strong>Workflow</strong> is a playbook for the self-made developer.
 </p>
 
+## Status
+
+**In Progress**: [Best practices: Git & GitHub](guides/git.md) 
+
 ## Chapters
 
 ### 0. Workflow
 
 * [Introduction to Workflow](guides/workflow.md) (In progress!)
+* [Contributing]
 
 ### 1. Planning and Project Management
 * [Introduction to Planning and Project Management](guides/planning-project-management.md) (Coming soon!)
@@ -89,4 +94,4 @@ Inspiration for **Workflow** includes:
 
 ## Contributing
 
-Guidelines for contributions are not quite ready, but I'm always happy to entertain Pull Requests or requests. Please share your expertise and improve these guides for others!
+Guidelines for contributions are not quite ready, but I'm always happy to entertain Pull Requests or comments. Please share your expertise and improve this resource for others!
