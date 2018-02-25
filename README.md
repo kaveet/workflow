@@ -15,7 +15,7 @@
 ### 0. Workflow
 
 * [Introduction to Workflow](guides/workflow.md) (In progress!)
-* [Contributing]
+* [Contributing]() 
 
 ### 1. Planning and Project Management
 * [Introduction to Planning and Project Management](guides/planning-project-management.md) (Coming soon!)
