@@ -1,8 +1,18 @@
-## Git Workflow
+## Best Practices: Git & GitHub
+
+### Introduction
+
+Version control is perhaps the most important your workflow. Many developers—especially those who start off programming on their own—tend to neglect version control or omit it completely. Strong version control practices can make development easier in the long run, promoting maintainability and improving resiliency.
+
+There are plenty of opinions out there on how to use Git most effectively; this section is _not_ about selecting the branching model or choosing who can commit to a repository. The following are things you can do as an individual developer to take full advantage of Git and increase your productivity under any version control model. 
+
+In later sections, we'll compare and contrast some of the more popular branching models. For now, let's look at some quick improvements to your Git workflow. 
+
+### Creating a New Repository
 
 ### Writing Commit Messages
 
-#### Anatomy of a good commit message:
+#### Anatomy of a Good Commit Message:
 
 ```
 Commit subject (summary) in 50 characters or less
@@ -57,3 +67,13 @@ If you'd like to start using `vim` to edit your commits, you can enter the follo
 ```shell
 git config --global core.editor "vim"
 ```
+
+### Glossary
+* **Commit Message**: 
+* **VCS**: Version Control Software
+
+### Additional Resources
+
+### References
+
+
