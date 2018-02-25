@@ -4,15 +4,47 @@
 
 Version control is perhaps the most important your workflow. Many developers—especially those who start off programming on their own—tend to neglect version control or omit it completely. Strong version control practices can make development easier in the long run, promoting maintainability and improving resiliency.
 
-There are plenty of opinions out there on how to use Git most effectively; this section is _not_ about selecting the branching model or choosing who can commit to a repository. The following are things you can do as an individual developer to take full advantage of Git and increase your productivity under any version control model. 
+There are plenty of opinions out there on how to use Git most effectively. This section is **not** about selecting the branching model or choosing how to lay out a repository. The following are things you can do as an individual developer to take full advantage of Git and increase your productivity under virtually any version control model. 
 
-In later sections, we'll compare and contrast some of the more popular branching models. For now, let's look at some quick improvements to your Git workflow. 
+In later sections, we'll compare and contrast some of the more popular branching models. For now, let's just look at some quick improvements to your Git workflow. 
 
 ### Creating a New Repository
 
-### Writing Commit Messages
+### Commit Early, Commit Often
 
-#### Anatomy of a Good Commit Message:
+You've heard this one plenty of times. Let's pick it apart.
+
+1. **Commit Early**
+
+	What exactly does "early" mean? Committing early means that you are committing changes as soon as they are complete. This ensures that you always have a good point to rollback to, just in case something goes wrong.
+	
+	From Seth Robertson's [Git Best Practices](https://sethrobertson.github.io/GitBestPractices/):
+
+	<p align="center"><em>"Git only takes full resposibility for your data when you commit."</em></p>
+	
+	
+2. **Commit Often**
+
+	This describes the _frequency_ of your commits while implying the _size_ of your commits. In order to commit code frequently, you must be able to divide your planned work into smaller "chunks." The sweet spot for number of commits is between 2 and 5 per hour of active development.
+	
+	Committing often encourages you to create distinct milestones that can be easily shared and tracked throughout the project. If you're working with other developers, this makes for easier merging and integration of changes. When combined with meaningful commit messages, this commit frequency results in high visibility of your work for both yourself and other developers.
+	
+#### Summary
+	
+* Follow the established practices of your company or organization
+	* Consistency is critical to successful Git usage
+* Only commit complete, non-breaking, tested code
+* Only include changes and files related to a certain task or fix
+	* All changes in a commit should be related
+
+	
+### Writing Meaningful Commit Messages
+
+#### The Argument for Commit Messages
+
+Version-controlled projects are almost always collaborative in nature. This means that at any given point, your changes should make sense to anyone looking at your commit history. 
+
+#### Anatomy of a Good Commit Message
 
 ```
 Commit subject (summary) in 50 characters or less
@@ -76,4 +108,9 @@ git config --global core.editor "vim"
 
 ### References
 
+1. [Commit Early, Commit Often](http://blog.beanstalkapp.com/post/147799908084/commit-early-commit-often) - Ashley Harp/Beanstalk, July 2016
+1. [Git Best Practices](https://sethrobertson.github.io/GitBestPractices/) - Seth Robertson, 2012
+1. [Git Commit Best Practices](https://github.com/trein/dev-best-practices/wiki/Git-Commit-Best-Practices) - Various Authors
+1. [On Commit Messages](http://who-t.blogspot.com/2009/12/on-commit-messages.html) - Peter Hutterer, December 2009
+1. [Writing Good Commit Messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages) - Various Authors
 
