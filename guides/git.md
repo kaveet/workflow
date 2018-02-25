@@ -37,12 +37,42 @@ You've heard this one plenty of times. Let's pick it apart.
 * Only include changes and files related to a certain task or fix
 	* All changes in a commit should be related
 
+#### Concluding Thoughts
+
+Above all else, it's important to be consistent with your commit behavior. If your company or organization has established Git practices it's probably a good idea to follow them instead. This means everyone knows what to expect in a commit history.
 	
 ### Writing Meaningful Commit Messages
 
-#### The Argument for Commit Messages
+#### The Argument for Better Commit Messages
 
-Version-controlled projects are almost always collaborative in nature. This means that at any given point, your changes should make sense to anyone looking at your commit history. 
+Version-controlled projects are almost always collaborative in nature. This means that at any given point, your changes should make complete sense to anyone looking at your commit history.
+
+We've all seen the following:
+
+```
+b580172: Fix logout bug
+3e05072: Misc cleanup
+71bcc3f: asdf
+6909dad: please work
+c6a52c6: Fixes
+```
+
+While creating commits like this might not seem like a problem in development, think about any of the following situations:
+
+* A bug lands in production and you need to know which commit to rollback to
+* You're ready to create a release and you need to figure out which changes have happened since the last release
+* You need to report what you've accomplished since last Wednesday
+
+There are plenty of additional arguments for commit messages, but the biggest goal is readability. Besides, wouldn't you rather see this?
+
+```
+b580172: Add JWT dependency
+3e05072: Add hidden Finder files to gitignore
+71bcc3f: Fix failing unit test for ExampleLibrary
+6909dad: Update README with installation instructions
+```
+
+Let's look at how to make that happen.
 
 #### Anatomy of a Good Commit Message
 
@@ -77,7 +107,7 @@ https://trello.com/c/...
 
 #### Rule of Thumb for Subject Lines:
 
-A properly formed Git commit subject will complete the following sentence:
+A properly formed Git commit subject will complete the following sentence:<sup>[4](https://chris.beams.io/posts/git-commit/)</sup>
 
 _If applied, this commit will **your subject line here**_.
 
@@ -111,6 +141,7 @@ git config --global core.editor "vim"
 1. [Commit Early, Commit Often](http://blog.beanstalkapp.com/post/147799908084/commit-early-commit-often) - Ashley Harp/Beanstalk, July 2016
 1. [Git Best Practices](https://sethrobertson.github.io/GitBestPractices/) - Seth Robertson, 2012
 1. [Git Commit Best Practices](https://github.com/trein/dev-best-practices/wiki/Git-Commit-Best-Practices) - Various Authors
+1. [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) - Chris Beams, August 2014
 1. [On Commit Messages](http://who-t.blogspot.com/2009/12/on-commit-messages.html) - Peter Hutterer, December 2009
 1. [Writing Good Commit Messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages) - Various Authors
 
