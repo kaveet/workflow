@@ -131,8 +131,9 @@ git config --global core.editor "vim"
 ```
 
 ### Glossary
-* **Commit Message**: 
-* **VCS**: Version Control Software
+* **Commit Message**: The entire message accompanying a Git commit. Not to be confused with **Commit Subject**.
+* **Commit Subject**: The first line of a **Commit Message**. Typically contains a summary of changes.
+* **VCS**: Acronym for Version Control Software.
 
 ### Additional Resources
 
