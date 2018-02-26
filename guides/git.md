@@ -122,12 +122,12 @@ https://trello.com/c/...
 
 ```
 
-#### Do:
+##### Do:
 * Capitalize your commit subject
 * Separate commit subject from the body with a blank line
 * Use imperative mood: "Fix bug" as opposed to "Fixed bug"
 
-#### Don't:
+##### Don't:
 * End your commit subject with a period
 * Use `-m`, unless the change can be completely summarized in 50 characters
 
