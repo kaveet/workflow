@@ -6,6 +6,11 @@
 <strong>Workflow</strong> is a playbook for the self-made developer.
 </p>
 
+<p align="center">
+<img src="https://img.shields.io/github/stars/kaveet/workflow.svg"></img>
+<img src="https://img.shields.io/github/license/kaveet/workflow.svg"></img>
+</p>
+
 ## Status
 
 **In Progress**: [Best practices: Git & GitHub](guides/git.md) 
