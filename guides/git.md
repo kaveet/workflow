@@ -163,6 +163,8 @@ git config --global core.editor "vim"
 
 ### Additional Resources
 
+1. [gitignore.io](http://gitignore.io)
+
 ### References
 
 1. [Commit Early, Commit Often](http://blog.beanstalkapp.com/post/147799908084/commit-early-commit-often) - Ashley Harp/Beanstalk, July 2016
